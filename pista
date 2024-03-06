@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Bazar La Pista</title> 
+
+    <style> 
+
+        /* Estilos para el cuerpo de la página */ 
+
+        body { 
+
+            font-family: Arial, sans-serif; 
+
+            background-color: #f7f7f7; 
+
+            margin: 0; 
+
+            padding: 0; 
+
+        } 
+
+ 
+
+        /* Encabezado del MiniMarket */ 
+
+        header { 
+
+            background-color: #333; 
+
+            color: #fff; 
+
+            text-align: center; 
+
+            padding: 20px; 
+
+        } 
+
+ 
+
+        /* Contenedor principal */ 
+
+        .container { 
+
+            max-width: 800px; 
+
+            margin: 0 auto; 
+
+            padding: 20px; 
+
+            background-color: #fff; 
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+        } 
+
+ 
+
+        /* Imagen del MiniMarket */ 
+
+        .market-image { 
+
+            width: 100%; 
+
+            max-height: 300px; 
+
+            object-fit: cover; 
+
+        } 
+
+ 
+
+        /* Horario de atención */ 
+
+        .opening-hours { 
+
+            font-weight: bold; 
+
+        } 
+
+    </style> 
+
+</head> 
+
+<body> 
+
+    <header> 
+
+        <h1>Bazar La Pista</h1> 
+
+        <p>¡Tu lugar de compras favorito!</p> 
+
+    </header> 
+
+ 
+
+    <div class="container"> 
+
+        <img class="market-image" src="market.jpg" alt="Bazar La Pista"> 
+
+ 
+
+        <h2>Horario de Atención</h2> 
+
+        <p class="opening-hours">Lunes a Viernes: 8:00 AM - 9:00 PM</p> 
+
+        <p class="opening-hours">Sábado y Domingo: 9:00 AM - 9:00 PM</p> 
+
+ 
+
+        <h2>Promoción del Día</h2> 
+
+        <p>¡Visítanos hoy y obtén un 10% de descuento en todos los productos!</p> 
+
+    </div> 
+
+</body> 
+
+</html> 
